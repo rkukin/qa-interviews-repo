@@ -86,6 +86,7 @@ export default class Searchbar extends Component {
   onChange = e => {
     const {name, value} = e.target;
 
+    if (value.length <= 6)
     this.setState({[name]: value})
   };
 
@@ -97,6 +98,8 @@ export default class Searchbar extends Component {
   };
 
   render() {
+    const { searchQuery } = this.state;
+
     return (
       <SearchBarHeader>
         <SearchForm onSubmit={this.onSubmit}>
@@ -110,7 +113,7 @@ export default class Searchbar extends Component {
             autoFocus
             placeholder="Search images and photos"
             name="searchQuery"
-            value={this.state.searchQuery}
+            value={searchQuery}
             onChange={this.onChange}
           />
         </SearchForm>

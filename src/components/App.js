@@ -28,12 +28,13 @@ export default class App extends Component {
   };
 
   componentDidUpdate(prevProps, prevState, snapshot) {
-    if (prevState.imgURL === this.state.imgURL){
-      window.scrollTo({
-        top: document.documentElement.scrollHeight,
-        behavior: 'smooth',
-      });
-    }
+    // if (prevState.imgURL === this.state.imgURL){
+
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth',
+    });
+    // }
 
     const prevSearchQuery = prevState.searchQuery;
     const currentSearchQuery = this.state.searchQuery;
@@ -73,7 +74,7 @@ export default class App extends Component {
       .then(images =>
         this.setState(prevState => ({
           images: [...prevState.images, ...images],
-          page: prevState.page + 1
+          page: prevState.page + 2
         })))
       .catch(error => this.setState({error}))
       .finally(() => this.setState({isLoading: false}));
