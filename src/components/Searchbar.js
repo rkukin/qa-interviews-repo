@@ -123,5 +123,5 @@ export default class Searchbar extends Component {
 }
 
 Searchbar.propTypes = {
-  onFormSubmit: PropTypes.func.isRequired
+  onFormSubmit: PropTypes.number.isRequired
 };
