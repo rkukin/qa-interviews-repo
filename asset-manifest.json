@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/QA-Interviews-repo/static/js/main.2e5dade5.chunk.js",
-    "main.js.map": "/QA-Interviews-repo/static/js/main.2e5dade5.chunk.js.map",
-    "runtime-main.js": "/QA-Interviews-repo/static/js/runtime-main.b0ae3b99.js",
-    "runtime-main.js.map": "/QA-Interviews-repo/static/js/runtime-main.b0ae3b99.js.map",
-    "static/css/2.f5298653.chunk.css": "/QA-Interviews-repo/static/css/2.f5298653.chunk.css",
-    "static/js/2.25e83a26.chunk.js": "/QA-Interviews-repo/static/js/2.25e83a26.chunk.js",
-    "static/js/2.25e83a26.chunk.js.map": "/QA-Interviews-repo/static/js/2.25e83a26.chunk.js.map",
-    "index.html": "/QA-Interviews-repo/index.html",
-    "precache-manifest.d27c3a2dc530a73fe30348117dd18755.js": "/QA-Interviews-repo/precache-manifest.d27c3a2dc530a73fe30348117dd18755.js",
-    "service-worker.js": "/QA-Interviews-repo/service-worker.js",
-    "static/css/2.f5298653.chunk.css.map": "/QA-Interviews-repo/static/css/2.f5298653.chunk.css.map",
-    "static/js/2.25e83a26.chunk.js.LICENSE": "/QA-Interviews-repo/static/js/2.25e83a26.chunk.js.LICENSE"
+    "main.js": "/qa-interviews-repo/static/js/main.fbaeab16.chunk.js",
+    "main.js.map": "/qa-interviews-repo/static/js/main.fbaeab16.chunk.js.map",
+    "runtime-main.js": "/qa-interviews-repo/static/js/runtime-main.19342cfa.js",
+    "runtime-main.js.map": "/qa-interviews-repo/static/js/runtime-main.19342cfa.js.map",
+    "static/css/2.f5298653.chunk.css": "/qa-interviews-repo/static/css/2.f5298653.chunk.css",
+    "static/js/2.0e1a065a.chunk.js": "/qa-interviews-repo/static/js/2.0e1a065a.chunk.js",
+    "static/js/2.0e1a065a.chunk.js.map": "/qa-interviews-repo/static/js/2.0e1a065a.chunk.js.map",
+    "index.html": "/qa-interviews-repo/index.html",
+    "precache-manifest.96a6473215bc3ae1b6bc9d4e93abe083.js": "/qa-interviews-repo/precache-manifest.96a6473215bc3ae1b6bc9d4e93abe083.js",
+    "service-worker.js": "/qa-interviews-repo/service-worker.js",
+    "static/css/2.f5298653.chunk.css.map": "/qa-interviews-repo/static/css/2.f5298653.chunk.css.map",
+    "static/js/2.0e1a065a.chunk.js.LICENSE": "/qa-interviews-repo/static/js/2.0e1a065a.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0ae3b99.js",
+    "static/js/runtime-main.19342cfa.js",
     "static/css/2.f5298653.chunk.css",
-    "static/js/2.25e83a26.chunk.js",
-    "static/js/main.2e5dade5.chunk.js"
+    "static/js/2.0e1a065a.chunk.js",
+    "static/js/main.fbaeab16.chunk.js"
   ]
 }
